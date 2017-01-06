@@ -1,4 +1,4 @@
-# New Things Router App
+# New Things Connected Devices APP
 
 ## What is this?
 This Node.js app is a prototype for an application that can run on the CHOICE New Things Team prototype router.
@@ -6,15 +6,6 @@ This Node.js app is a prototype for an application that can run on the CHOICE Ne
 It is intended to explore what data points should be made accessible on the New Things router platform, and to respond to user research by IF into how people can better understand their home network.
 
 ## What does it do?
-Right now, it contains:
-
-* A functioning front-end that presents information around Internet performance and what's connected in the home.
-
-* A Python script that runs in the background that pipes live data into the front-end.
-
-* A SQLite database logs Internet connection test speeds.
-
-The code in this repository is intended to be further developed to enable actual performance data to be used.
 
 ## How do I install it?
 

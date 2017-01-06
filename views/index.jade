@@ -8,7 +8,7 @@ html(lang="en")
     script(type="text/javascript" src="/public/javascripts/app.js")
     link(rel="stylesheet" type="text/css" href="/public/stylesheets/app.css")
   body
-    div(id="container")
+    div(id="container" class="one")
       div(class="device_list")
         h1 Devices connected to *Router name*
         ul
@@ -19,3 +19,17 @@ html(lang="en")
           li Device five
         div(class="button")
           a(href="#") Refresh
+          
+    div(id="container" class="two")
+      div(class="device_notification")
+        div(class="notification_img" style="width:50%; float: left;")
+          img(src="/public/images/notification_icon.png")
+        div(class="notification_text" style="width:50%; float: right;")
+          h2 Samsung S5
+          p First connected Friday 6 January 10:01
+          p If you do not recognise this device you can remove it from your network
+          div(style="text-align: left;")
+            div(class="button")
+              a(href="#") Remove
+            div(class="button")
+              a(href="#") Cancel

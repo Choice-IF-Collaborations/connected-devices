@@ -66,6 +66,9 @@ input {
 h1 {
   font-size: 2em; }
 
+h2 {
+  font-size: 1.5em; }
+
 #container {
   width: 800px;
   height: 478px;
@@ -88,3 +91,32 @@ h1 {
       color: #FFF;
       padding: 0.2em 2em 0.4em 2em;
       text-decoration: none; }
+  #container .device_notification {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em; }
+    #container .device_notification img {
+      width: 80%; }
+    #container .device_notification h1 {
+      margin-bottom: 1em; }
+    #container .device_notification h2 {
+      text-align: left;
+      margin-bottom: 1.2em; }
+    #container .device_notification p {
+      text-align: left;
+      margin-bottom: 1.6em; }
+    #container .device_notification .button {
+      display: inline;
+      text-align: left;
+      margin-right: 0.5em; }
+      #container .device_notification .button a {
+        background-color: #808080;
+        color: #FFF;
+        padding: 0.2em 2em 0.4em 2em;
+        text-decoration: none; }
+
+.one {
+  display: none; }

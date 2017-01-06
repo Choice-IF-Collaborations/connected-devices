@@ -63,9 +63,28 @@ input {
   padding-bottom: 1em;
   width: 100%; }
 
+h1 {
+  font-size: 2em; }
+
 #container {
   width: 800px;
   height: 478px;
   background: #FFF;
   border-radius: 4px;
   overflow: hidden; }
+  #container .device_list {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em; }
+    #container .device_list h1 {
+      margin-bottom: 1em; }
+    #container .device_list ul li {
+      margin-bottom: 0.6em; }
+    #container .device_list .button a {
+      background-color: #808080;
+      color: #FFF;
+      padding: 0.2em 2em 0.4em 2em;
+      text-decoration: none; }

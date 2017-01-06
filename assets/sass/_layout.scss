@@ -21,7 +21,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  font-style: bold
 }
 
 #container {
@@ -43,10 +44,6 @@ h2 {
       margin-bottom: 1em;
     }
 
-    h2 {
-
-    }
-
     ul {
 
       li {
@@ -57,9 +54,10 @@ h2 {
     .button{
 
       a {
+        font-size: 0.8em;
         background-color: #808080;
         color: #FFF;
-        padding: 0.2em 2em 0.4em 2em;
+        padding: 0.2em 3em 0.4em 3em;
         text-decoration: none;
       }
     }
@@ -91,16 +89,31 @@ h2 {
       margin-bottom: 1.6em;
     }
 
-    .button{
-      display: inline;
-      text-align: left;
-      margin-right: 0.5em;
+    .notification_img {
+      width:50%;
+      float: left;
+    }
 
-      a {
-        background-color: #808080;
-        color: #FFF;
-        padding: 0.2em 2em 0.4em 2em;
-        text-decoration: none;
+    .notification_text {
+      width:50%;
+      float: right;
+    }
+
+    .notification_buttons {
+      text-align: left;
+
+      .button{
+        display: inline;
+        text-align: left;
+        margin-right: 0.5em;
+
+        a {
+          font-size: 0.8em;
+          background-color: #808080;
+          color: #FFF;
+          padding: 0.2em 3em 0.4em 3em;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -111,5 +124,8 @@ h2 {
 }
 
 .two {
+    display: none;
+}
 
+.two {
 }

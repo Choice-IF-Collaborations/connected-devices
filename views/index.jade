@@ -22,14 +22,27 @@ html(lang="en")
           
     div(id="container" class="two")
       div(class="device_notification")
-        div(class="notification_img" style="width:50%; float: left;")
+        div(class="notification_img")
           img(src="/public/images/notification_icon.png")
-        div(class="notification_text" style="width:50%; float: right;")
+        div(class="notification_text")
           h2 Samsung S5
           p First connected Friday 6 January 10:01
           p If you do not recognise this device you can remove it from your network
-          div(style="text-align: left;")
+          div(class="notification_buttons")
             div(class="button")
               a(href="#") Remove
             div(class="button")
               a(href="#") Cancel
+
+    div(id="container" class="three")
+      div(class="device_notification")
+        div(class="notification_img")
+          img(src="/public/images/notification_icon.png")
+        div(class="notification_text")
+          h2 A new device has connected to *Router Name*
+          p Samsung S5 has connected to your network for the first time
+          div(class="notification_buttons")
+            div(class="button")
+              a(href="#") OK
+            div(class="button")
+              a(href="#") Remove

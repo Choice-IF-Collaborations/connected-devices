@@ -67,7 +67,8 @@ h1 {
   font-size: 2em; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 1.4em;
+  font-style: bold; }
 
 #container {
   width: 800px;
@@ -87,9 +88,10 @@ h2 {
     #container .device_list ul li {
       margin-bottom: 0.6em; }
     #container .device_list .button a {
+      font-size: 0.8em;
       background-color: #808080;
       color: #FFF;
-      padding: 0.2em 2em 0.4em 2em;
+      padding: 0.2em 3em 0.4em 3em;
       text-decoration: none; }
   #container .device_notification {
     width: 80%;
@@ -108,15 +110,27 @@ h2 {
     #container .device_notification p {
       text-align: left;
       margin-bottom: 1.6em; }
-    #container .device_notification .button {
-      display: inline;
-      text-align: left;
-      margin-right: 0.5em; }
-      #container .device_notification .button a {
-        background-color: #808080;
-        color: #FFF;
-        padding: 0.2em 2em 0.4em 2em;
-        text-decoration: none; }
+    #container .device_notification .notification_img {
+      width: 50%;
+      float: left; }
+    #container .device_notification .notification_text {
+      width: 50%;
+      float: right; }
+    #container .device_notification .notification_buttons {
+      text-align: left; }
+      #container .device_notification .notification_buttons .button {
+        display: inline;
+        text-align: left;
+        margin-right: 0.5em; }
+        #container .device_notification .notification_buttons .button a {
+          font-size: 0.8em;
+          background-color: #808080;
+          color: #FFF;
+          padding: 0.2em 3em 0.4em 3em;
+          text-decoration: none; }
 
 .one {
+  display: none; }
+
+.two {
   display: none; }
